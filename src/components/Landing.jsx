@@ -7,12 +7,12 @@ import { ReactComponent as Relocate } from './assets/boxicons-svg/svg/bxs-plane-
 
 const Landing = () => {
   return (
-    <div className="landing">
+    <div className="landing container-fluid">
       <div className="contents">
         <div className="main">
-          <div className="left-cont">
+          <div className="left-cont container">
             <div className="title">
-              <h1>Hi I'm Elise Acher</h1>
+              <h1>Hi, I'm Elise Acher</h1>
               <div className='icons'>
                 <Location width={25} height={25}/><p>London, UK</p>
                 <Langs width={25} height={25}/> <p>ENG, FR</p>
@@ -45,8 +45,8 @@ const Landing = () => {
 
 
           </div>
-          <div className="right-cont">
-            <img src={landingpic} class="landing-pic" alt="Quote up" />
+          <div className="right-cont container ">
+            <img src={landingpic} className="landing-pic" alt="Quote up" />
           </div>
         </div>
 
