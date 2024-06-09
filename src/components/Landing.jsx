@@ -23,9 +23,9 @@ const Landing = () => {
                 full stack engineer
               </h3>
               <span>
-                Recent Le Wagon web development bootcamp graduate with over 2
-                years of experience in full stack development. I am passionate about bringing the wildest ideas to life through the
-                power of tech. No challenge is too big, so lets get started!
+                Recent Le Wagon web dev bootcamp graduate with <b>over 2
+                years</b> of experience in full stack development. I am passionate about bringing the wildest ideas to life through the
+                power of tech. No challenge is too big, so<b> let's get started!</b>
               </span>
 
 
@@ -50,7 +50,7 @@ const Landing = () => {
           </div>
         </div>
 
-      <div className="chevron"></div>
+      {/* <div className="chevron"></div> */}
 
       </div>
 
