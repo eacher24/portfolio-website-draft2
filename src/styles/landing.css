@@ -1,60 +1,161 @@
 .landing{
-  width: 100wh;
+  width: 100vw;
   height: 100vh;
   display: flex;
   /* justify-content: space-around; */
 
-
 }
+
+
 
 
 
 .contents{
   display: flex;
   flex-direction: column;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 100%;
 }
 
 .main {
   display: flex;
   flex-direction: row;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   }
 
-.chevron {
-    /* border: 2px solid red; */
-  }
+/* .chevron {
+    border: 2px solid red;
+ } */
 
 .left-cont, .right-cont {
       /* border: 2px solid red; */
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   padding-top: 5%;
 }
+
+
+
 
 .chevron {
 
 }
 
 .right-cont{
-  position: relative;
-  overflow: auto;
+  /* position: relative; */
+  /* overflow: auto; */
+  margin-left: 5%;
 
   /* padding: 5%; */
 }
 
 
 .landing-pic {
-  width: 90%;
-  height: 90%;
+  width: 86%;
+  height: 86%;
   object-fit: cover;
-  margin-top: 10%;
+  margin-top: 5%;
+  margin-right: 2%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
 
 }
 
 .title {
   display: flex;
   justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  margin-left: 9%;
+  margin-top: 20%;
+}
+
+h1 {
+  font-size: 500%;
+  letter-spacing: 5%;
+  font-weight: 400;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: flex-start;
+  /* border: 2px solid red; */
+  /* margin-right: 0%; */
+
+
+  p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2% ;
+    /* border: 2px solid red; */
+  }
+
+}
+
+
+h3 {
+  margin-top: 3%;
+  font-weight: bold;
+  font-size: 300%;
+  margin-bottom: 3%;
+}
+
+span {
+  width: 80%;
+  font-size: 110%;
+}
+
+
+/* .buttons {
+  border: 2px solid red;
+  display: flex;
   align-items: center;
+  justify-content: space-around;
+  margin-top: 5%;
+  width: 100%;
+} */
+
+.ext-links{
+  margin-top: 4%;
+  display: flex;
+
+  /* justify-content: space-evenly; */
+}
+
+
+.button {
+  text-decoration: none;
+  background-color: white;
+  border: 2px solid black;
+  padding: 2% 8%;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-right: 2%;
+
+  background: linear-gradient(to right, var(--dark-blue), var(--violet), var(--pink) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  font-size: 120%;
+
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+
+
+}
+
+.button:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.5em);
+  transition: 0.3s;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
 }
