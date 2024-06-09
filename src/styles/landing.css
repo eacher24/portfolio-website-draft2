@@ -1,0 +1,60 @@
+.landing{
+  width: 100wh;
+  height: 100vh;
+  display: flex;
+  /* justify-content: space-around; */
+
+
+}
+
+
+
+.contents{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid red;
+  }
+
+.chevron {
+    /* border: 2px solid red; */
+  }
+
+.left-cont, .right-cont {
+      /* border: 2px solid red; */
+  height: 90vh;
+  width: 100%;
+  padding-top: 5%;
+}
+
+.chevron {
+
+}
+
+.right-cont{
+  position: relative;
+  overflow: auto;
+
+  /* padding: 5%; */
+}
+
+
+.landing-pic {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  margin-top: 10%;
+
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
