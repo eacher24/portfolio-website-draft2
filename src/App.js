@@ -6,32 +6,45 @@ import Landing from './components/Landing';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact.jsx';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 
 
 function App() {
   return (
-    <div className="App">
-      <main>
 
-        <div className="App">
-          <Navbar />
+
+
+        <div className="app">
+          <BrowserRouter>
+            <Navbar />
+            <Routes>
+              <Route index element={<Landing />} />
+              <Route path="/home" element={<Landing />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/contact" element={<Contact />} />
+            </Routes>
+          </BrowserRouter>
+
+          
+          {/* <Navbar />
           <Landing />
           <About />
           <Projects />
-          <Contact />
+          <Contact /> */}
 
         </div>
 
 
 
 
-      </main>
 
 
 
 
-    </div>
+
+
   );
 }
 
