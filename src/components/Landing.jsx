@@ -7,7 +7,7 @@ import { ReactComponent as Relocate } from './assets/boxicons-svg/svg/bxs-plane-
 
 const Landing = () => {
   return (
-    <div className="landing container-fluid">
+    <div className="landing container-fluid" id="landing">
       <div className="contents">
         <div className="main">
           <div className="left-cont container">

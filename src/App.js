@@ -1,6 +1,10 @@
 import './App.css';
 import './styles/navbar.css';
 import './styles/landing.css';
+import './styles/about.css';
+import './styles/projects.css';
+import './styles/contact.css';
+
 import Navbar from './components/Navbar.jsx';
 import Landing from './components/Landing';
 import About from './components/About';
@@ -16,7 +20,7 @@ function App() {
 
 
         <div className="app">
-          <BrowserRouter>
+          {/* <BrowserRouter>
             <Navbar />
             <Routes>
               <Route index element={<Landing />} />
@@ -25,9 +29,16 @@ function App() {
               <Route path="/projects" element={<Projects />} />
               <Route path="/contact" element={<Contact />} />
             </Routes>
-          </BrowserRouter>
+          </BrowserRouter> */}
 
-          
+          <Navbar />
+          <Landing />
+          <About />
+          <Projects />
+          <Contact />
+
+
+
           {/* <Navbar />
           <Landing />
           <About />

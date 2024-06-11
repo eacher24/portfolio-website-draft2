@@ -1,5 +1,5 @@
 import React from 'react'
-import quoteup from './assets/quoteup.png';
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
   return (
@@ -12,20 +12,21 @@ const Navbar = () => {
     // </nav>
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white custom-navbar">
-      <a class="navbar-brand gradient-text" href="#">Elise Acher</a>
+      <Link to="landing" spy={true} smooth={true} offset={-70} duration={500} className="navbar-brand gradient-text" >Elise Acher</Link>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">About</a>
+            <Link to="about" spy={true} smooth={true} offset={-70} duration={500} className="nav-link" >About</Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <Link to="projects" spy={true} smooth={true} offset={-70} duration={500} class="nav-link">Projects</Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} class="nav-link">Contact</Link>
+
           </li>
         </ul>
       </div>
