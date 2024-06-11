@@ -1,5 +1,5 @@
 import React from 'react'
-import landingpic  from './assets/landing-img.png'
+import landingpic  from './assets/images/landing-img.png'
 import { ReactComponent as Location } from './assets/boxicons-svg/svg/bxs-location-plus.svg';
 import { ReactComponent as Langs } from './assets/boxicons-svg/svg/bxs-chat.svg'
 import { ReactComponent as Remote } from './assets/boxicons-svg/svg/bx-world.svg';
