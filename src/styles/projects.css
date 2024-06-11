@@ -7,3 +7,64 @@
 
   border: 2px solid red;
 }
+
+.projects-title {
+
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2%;
+
+  h1{
+    background: linear-gradient(to right, var(--dark-blue), var(--violet), var(--pink) );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    font-size: 700%;
+
+  }
+
+  p {
+    font-weight: 500;
+    font-size: 120%;
+  }
+
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-deck {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  margin-left: 5%;
+
+
+}
+
+.card {
+  width: 30%;
+  height: auto;
+  margin-right: 5%;
+
+
+  /* background: linear-gradient(to right, var(--dark-blue), var(--violet), var(--pink) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+  font-size: 120%;
+
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.card-title{
+  font-weight: bold;
+}

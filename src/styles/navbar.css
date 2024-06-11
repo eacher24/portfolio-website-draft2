@@ -18,3 +18,12 @@ li {
   font-size: 1.2rem;
   font-weight: 500;
 }
+
+.navbar-nav {
+  --bs-nav-link-padding-y: 0rem;
+  /* will undo automatic 0.5rem set through boostrap default style */
+}
+
+*{
+  /* border: 2px solid red; */
+}

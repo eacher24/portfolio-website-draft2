@@ -159,3 +159,9 @@ span {
   backdrop-filter: blur( 5.5px );
     -webkit-backdrop-filter: blur( 5.5px );
 }
+
+a.active {
+  text-decoration: none;
+  color: black;
+  /* font-weight: bold; */
+}

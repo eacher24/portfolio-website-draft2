@@ -32,10 +32,10 @@ function App() {
           </BrowserRouter> */}
 
           <Navbar />
-          <Landing />
-          <About />
-          <Projects />
-          <Contact />
+          <Landing className ="landing-border"/>
+          <About className ="about-border"/>
+          <Projects className ="projects-border"/>
+          <Contact className ="contacts-border"/>
 
 
 
