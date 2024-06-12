@@ -5,12 +5,16 @@ import './styles/about.css';
 import './styles/projects.css';
 import './styles/contact.css';
 
+
+
 import Navbar from './components/Navbar.jsx';
 import Landing from './components/Landing';
 import About from './components/About';
 import Projects from './components/Projects';
+
 import Contact from './components/Contact.jsx';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
+
 
 
 
@@ -35,6 +39,7 @@ function App() {
           <Landing className ="landing-border"/>
           <About className ="about-border"/>
           <Projects className ="projects-border"/>
+
           <Contact className ="contacts-border"/>
 
 

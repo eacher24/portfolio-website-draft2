@@ -5,7 +5,6 @@
   /* color: blue; */
   /* justify-content: space-around; */
 
-  border: 2px solid red;
 }
 
 .projects-title {
@@ -68,3 +67,30 @@
 .card-title{
   font-weight: bold;
 }
+
+.project-buttons{
+  display: flex;
+  justify-content: space-around;
+
+  }
+
+.prjt-button {
+    text-decoration: none;
+    color: var(--violet);
+    padding: 2% 8%;
+    border: 1px solid rgba( 255, 255, 255, 0.5 );;
+    border-radius: 10px;
+    align-self: flex-end;
+    margin-bottom: 5%;
+
+
+
+}
+
+.stack  {
+  margin-right: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+
+

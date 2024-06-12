@@ -5,7 +5,9 @@
   --pink: #AD46D3;
   --cream: #E2E6E9;
 
+
 }
+
 
 .App {
   /* *{
@@ -19,3 +21,5 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+
