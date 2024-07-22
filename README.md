@@ -1,5 +1,12 @@
 # Getting Started with Create React App
 
+
+<p align="center">
+  <<img width="400" alt="" src="https://github.com/eacher24/Condensify-AI-Summariser/blob/main/Page-1.png" style="width:45%; margin-right:10px;">
+  <img width="400" alt="" src="https://github.com/eacher24/Condensify-AI-Summariser/blob/main/Page-2.png" style="width:45%;">
+</p>
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
