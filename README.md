@@ -2,8 +2,7 @@
 
 
 <p align="center">
-  <<img width="400" alt="" src="https://github.com/eacher24/portfolio-website-draft2/blob/main/personal_website_front_page.png" style="width:45%; margin-right:10px;">
-  <img width="400" alt="" src="https://github.com/eacher24/Condensify-AI-Summariser/blob/main/Page-2.png" style="width:45%;">
+  <img width="400" alt="" src="https://github.com/eacher24/portfolio-website-draft2/blob/main/personal_website_front_page.png" style="width:45%; margin-right:10px;">
 </p>
 
 
